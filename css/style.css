@@ -1,0 +1,274 @@
+body
+{
+
+background: url('../img/bg.jpg') 100% 100% no-repeat fixed;
+padding:0;	
+}
+.main
+{
+	
+width:1000px;
+margin: 1% auto;
+  -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radis: 15px;
+	box-shadow:0 0 50px #c0c0c0;
+}
+.logo
+{
+    background:#ffffff;
+	width:100%;
+	height:25%;
+	margin:0  auto;
+}
+
+.content1
+{background:white;
+
+padding:5%;
+margin:0  auto;
+}
+.slider
+{
+background:#ffffff;	
+}
+.rightimg {
+    float:right; /* Выравнивание по левому краю */
+    margin: 15px; /* Отступы вокруг картинки */
+   }
+.font
+{   font-size:15px;
+      font-family: Verdana, Arial, Helvetica, sans-serif; /* Шрифт с засечками */
+    color:#A0522D;
+	text-align:justify;
+} 
+
+#topcontrol{ z-index: 9999; }
+#topcontrol{ margin-bottom: 50px; }
+
+.foter
+{   
+background-color:#ffffff; 
+     padding: 1%;
+	 height:5%;
+	
+	 font-family: Verdana, Arial, Helvetica, sans-serif;
+	 margin-left:0,5%
+	
+}
+
+
+----------------------------------------------
+a img { 
+	border: none;
+}
+a:link {
+	color: #000;
+	text-decoration: none; 
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color:red;
+}
+
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; 
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+/*Basic style*/
+
+
+
+
+
+
+
+
+
+/*menu style*/
+.navcont{
+	width:1000px;
+	margin:0 auto;
+	background:#fff;
+	height:45px;
+}
+
+.nav {
+	height: 45px;
+	background: transparent url(http://i50.tinypic.com/bj0nm.png) center bottom no-repeat;
+	padding-bottom: 7px;
+    margin-bottom: 23px;
+}
+
+.nav ul {
+	margin:0;
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	
+}
+
+.nav ul li {
+	font: 13px Verdana, 'Lucida Grande';
+	cursor: pointer;
+	-webkit-transition: padding .05s linear;
+	-moz-transition: padding .05s linear;
+	-ms-transition: padding .05s linear;
+	-o-transition: padding .05s linear;
+	transition: padding .05s linear;
+	background: transparent url(http://i46.tinypic.com/21c5h93.png) left center no-repeat;
+}
+.nav li:first-child
+{
+background:none;
+}
+.nav ul li.drop {
+	position: relative;
+}
+.nav ul > li {
+	display: inline-block;
+}
+.nav ul li a {
+	line-height: 45px;
+	padding: 0 20px;
+	height: 45px;
+	color: #777;
+}
+.nav ul li a:hover {
+	color:#09F;
+}
+
+.dropOut .triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid white;
+	top: -8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.dropdownContain {
+	width: 200px;
+	position: absolute;
+	z-index: 2;
+	left: 60%;
+	margin-left: -100px; /* half of width */
+	top: -400px;
+}
+.dropOut {
+	width: 200px;
+	background: white;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	opacity: 0;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+.dropOut ul {
+	float: left;
+	padding: 0 0;
+}
+.dropOut ul li {
+	text-align: left;
+	background: transparent url(http://i50.tinypic.com/303efm1.png) center top repeat-x;
+	float: left;
+	width: 155px;
+	padding: 12px 0 10px 15px;
+	margin: 0px 15px;
+	color: #777;
+}
+.dropOut li:first-child
+{
+background:none;
+}
+
+.dropOut ul li:hover {
+	color:#09F;
+	-webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+
+ul li:hover a { color:#09F;
+	-webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+ }
+ul li:hover .dropdownContain { top: 45px; }
+--------------------------------------------
+#container2{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px 0 0 0;
+	position: relative;
+}
+
+
+#gallery, #thumbs{
+	float: left;
+}
+
+#gallery{
+	width: 900px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#gallery img{
+	position: absolute;
+}
+
+#thumbs{
+	width: 100px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#next{
+	display: block;
+	width: 47px;
+	height: 43px;
+	background: url(img/arrow.png);
+	position: relative;
+	top: 257px;
+	left: 855px;
+}
+
+#next:hover{
+	background: url(img/arrowmo.png);
+}
+
+.clear{
+	clear: both;
+}
